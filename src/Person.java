@@ -1,22 +1,15 @@
 public class Person {
+    private String name;
 
-   private static String name;
+    public Person(String name) {
+        this.name = name;
+    }
 
-    public static void main(String[] args) {
+    public String getName() {
+        return name;
+    }
 
-
-
-
-
-
-        // returns the person's name
-        public String getName();
-// changes the name property to the passed value
-        public void setName();
-// prints a message to the console using the person's name
-        public void sayHello();
-
-
-
+    public void setName(String name) {
+        this.name = name;
     }
 }
