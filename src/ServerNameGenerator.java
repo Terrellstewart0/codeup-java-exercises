@@ -26,16 +26,23 @@ public class ServerNameGenerator {
        noun[7] = "two";
        noun[8] = "family";
 
-        int rnd = new Random().nextInt(adj.length);
-        int rad = new Random().nextInt(adj.length);
-
-        System.out.println(adj[rnd] + " " + noun[rad]);
-
-
+//        int rnd = new Random().nextInt(adj.length);
+//        int rad = new Random().nextInt(adj.length);
+//
+//        System.out.println(adj[rnd] + " " + noun[rad]);
 
 
+        String serverName = getRandomString(adj) + " " + getRandomString(noun);
 
 
+        System.out.println(serverName);
+
+
+    }
+
+    private static String getRandomString(String[] strings) {
+        int randomIndex = (int) (Math.random() * strings.length);
+        return strings[randomIndex];
 
     }
 
