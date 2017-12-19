@@ -5,9 +5,7 @@ public class ConsoleExercises {
 
         Scanner sc = new Scanner(System.in);
 
-//        System.out.println("Please enter a thing: ");
-//        int userInt = sc.nextInt();
-//        System.out.println(userInt);
+//
 //
 //        System.out.print("Please enter 3 words: ");
 //        String firstWord, secondWord, thirdWord;
